@@ -1,0 +1,70 @@
+# === Сборка (Gradle) ===
+.gradle/
+build/
+*/build/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+.kotlin/
+
+# === Артефакты и логи ===
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.log
+*.tmp
+*.swp
+*.bak
+*.war
+
+# === IntelliJ IDEA / Android Studio ===
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.idea_modules/
+
+# Пользовательские настройки IDE
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/shelf/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetDropDown.xml
+.idea/vcs.xml
+
+# === Локальные конфигурации ===
+local.properties
+.settings/
+
+# === Keystore / подписи (КРИТИЧНО) ===
+*.jks
+*.keystore
+
+# === NDK / C++ ===
+obj/
+*.o
+*.a
+*.so
+
+# === Crashlytics / Firebase / Google Services ===
+google-services.json
+crashlytics-build.properties
+fabric.properties
+com_crashlytics_export_strings.xml
+
+# === OS-мусор ===
+.DS_Store
+Thumbs.db
+desktop.ini
