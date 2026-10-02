@@ -1,3 +1,7 @@
+# ============================================================
+# Android + Kotlin DSL (Gradle .kts) — .gitignore
+# ============================================================
+
 # === Сборка (Gradle) ===
 .gradle/
 build/
@@ -7,6 +11,18 @@ captures/
 .externalNativeBuild/
 .cxx/
 .kotlin/
+
+# === Kotlin DSL (Gradle .kts) ===
+.gradle/kotlin/
+.gradle/kotlin-dsl/
+*.kotlin_module
+*.kotlin_metadata
+
+# ВАЖНО: скрипты сборки НЕ игнорируем — они часть проекта
+!build.gradle.kts
+!settings.gradle.kts
+!gradle.properties
+!**/*.gradle.kts
 
 # === Артефакты и логи ===
 *.apk
