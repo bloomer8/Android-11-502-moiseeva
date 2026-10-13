@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AuthorizationForm</string>
+
+    <!-- Первый экран -->
+    <string name="login_title">Авторизация</string>
+    <string name="email_label">Электронная почта</string>
+    <string name="email_hint">Введите e-mail</string>
+    <string name="password_label">Пароль</string>
+    <string name="password_hint">Введите пароль</string>
+    <string name="next_button">Далее</string>
+
+    <!-- Ошибки проверки -->
+    <string name="email_empty_error">Введите электронную почту</string>
+    <string name="password_empty_error">Введите пароль</string>
+    <string name="email_invalid_error">Введите корректный адрес e-mail</string>
+    <string name="password_invalid_error">Пароль должен содержать не менее 8 символов, латинскую букву и цифру</string>
+
+    <!-- Второй экран -->
+    <string name="result_title">Результат авторизации</string>
+    <string name="success_message">Пароль совпадает!</string>
+    <string name="failure_message">Пароль не совпадает</string>
+    <string name="generated_password_label">Сгенерированный пароль</string>
+
+    <!-- Показ и скрытие пароля -->
+    <string name="show_password">Показать пароль</string>
+    <string name="hide_password">Скрыть пароль</string>
+
+    <!-- Копирование пароля -->
+    <string name="copy_password">Копировать пароль</string>
+    <string name="password_copied">Пароль скопирован</string>
+
+    <!-- Возвращение назад -->
+    <string name="back_button">Вернуться назад</string>
+
+    <!-- Описания изображений -->
+    <string name="success_image_description">Успешная авторизация</string>
+    <string name="failure_image_description">Неуспешная авторизация</string>
+
+    <!-- URL изображений -->
+    <string name="success_image_url">https://placehold.co/400x300/DAF7E8/26734D.png?text=SUCCESS</string>
+    <string name="failure_image_url">https://placehold.co/400x300/FCE4EC/AD1457.png?text=ERROR</string>
+
+</resources>
+
+
