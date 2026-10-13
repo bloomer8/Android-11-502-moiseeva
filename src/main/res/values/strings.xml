@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Artist World</string>
+
+    <!-- Первый экран -->
+    <string name="screen_title">Artist World</string>
+    <string name="screen_subtitle">Твой музыкальный мир</string>
+    <string name="screen_description">Выбери артиста и узнай о нём больше</string>
+    <string name="artist_hint">Нажми, чтобы узнать больше</string>
+
+    <!-- Имена артистов -->
+    <string name="artist_1">Taylor Swift</string>
+    <string name="artist_2">The Weeknd</string>
+    <string name="artist_3">Billie Eilish</string>
+    <string name="artist_4">Bruno Mars</string>
+    <string name="artist_5">Ariana Grande</string>
+    <string name="artist_6">Lady Gaga</string>
+    <string name="artist_7">Justin Bieber</string>
+    <string name="artist_8">Rihanna</string>
+    <string name="artist_9">Ed Sheeran</string>
+    <string name="artist_10">Dua Lipa</string>
+
+    <!-- Второй экран -->
+    <string name="details_title">Об артисте</string>
+    <string name="back_button">Назад</string>
+
+    <!-- Биографии -->
+    <string name="bio_1">Американская певица и автор песен, известная своими поп-альбомами и песнями о личном опыте.</string>
+    <string name="bio_2">Канадский певец, автор песен и продюсер, исполняющий музыку в жанрах R&amp;B и поп.</string>
+    <string name="bio_3">Американская певица, известная необычным вокалом и атмосферной поп-музыкой.</string>
+    <string name="bio_4">Американский певец и музыкант, исполняющий поп, фанк и R&amp;B.</string>
+    <string name="bio_5">Американская певица, известная широким вокальным диапазоном и поп-хитами.</string>
+    <string name="bio_6">Американская певица, известная яркими сценическими образами и поп-музыкой.</string>
+    <string name="bio_7">Канадский певец, получивший известность благодаря поп- и R&amp;B-композициям.</string>
+    <string name="bio_8">Барбадосская певица и предпринимательница, исполняющая поп и R&amp;B.</string>
+    <string name="bio_9">Британский певец и автор песен, известный акустическими поп-композициями.</string>
+    <string name="bio_10">Британская певица, известная танцевальной поп-музыкой.</string>
+
+    <string name="bio_unknown">Информация об этом артисте пока отсутствует.</string>
+</resources>
+
