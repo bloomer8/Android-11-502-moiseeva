@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8FC"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="64dp"
+        android:paddingBottom="32dp">
+
+        <TextView
+            android:id="@+id/valueText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Выбранное значение: 5"
+            android:textColor="#292331"
+            android:textSize="23sp"
+            android:layout_marginBottom="28dp" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="10"
+            android:progress="5"
+            android:progressTint="#D77DBB"
+            android:progressBackgroundTint="#E8DDE6"
+            android:thumbTint="#D77DBB" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:textColor="#786B7C"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:textColor="#786B7C"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="76dp"
+            android:indeterminate="true"
+            android:indeterminateTint="#D77DBB"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/firstButton"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginBottom="18dp"
+            android:background="@drawable/pink_button"
+            android:backgroundTint="@null"
+            android:text="▶   Запустить по очереди"
+            android:textAllCaps="false"
+            android:textColor="#542344"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/secondButton"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginBottom="18dp"
+            android:background="@drawable/pink_button"
+            android:backgroundTint="@null"
+            android:text="▶▶   Запустить параллельно"
+            android:textAllCaps="false"
+            android:textColor="#542344"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="@drawable/pink_button"
+            android:backgroundTint="@null"
+            android:text="ⓧ   Отменить все"
+            android:textAllCaps="false"
+            android:textColor="#542344"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>
